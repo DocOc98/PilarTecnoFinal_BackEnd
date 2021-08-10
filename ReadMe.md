@@ -11,13 +11,13 @@ POST :: /places ---> Creates a new vaccination point in the DB. Recives data by 
 DELETE :: /places/:id ---> Deletes a Vaccination Point in the DB
 PATCH :: /places/:id  ---> Edites a Vaccination Point in the DB sended in body. Verifies the data with JOI.
 
-# Comenzando el proyecto
+# Project Start
 It has made with NodeJS and Express, it is validated with Joi, the used DB is MongoDB uploaded in the cloud(Atlas). And It is used mongoose to get data. 
 
-# Autor
+# Author
 Hernan Octavio de la Vega(DocOc98)
 
-# Versiones
+# Version
 * 0.1  
 *Initial Release
 
