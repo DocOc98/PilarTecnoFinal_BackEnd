@@ -1,0 +1,36 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "this is the final work of MERN Stack. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DocOc98/PilarTecnoFinal.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "PilarTecno",
+    "MERN_Stack"
+  ],
+  "author": "Hernan Octavio de la Vega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DocOc98/PilarTecnoFinal/issues"
+  },
+  "homepage": "https://github.com/DocOc98/PilarTecnoFinal#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^3.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "http-errors": "^1.7.2",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0"
+  }
+}
