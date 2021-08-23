@@ -1,9 +1,4 @@
-const points = require('../../data.json');
 const pointSchema = require('../models/point.model');
-
-getPoint = (req, res) => {
-  res.status(200).json(points.vaccination);
-}
 
 async function getPlaces(req, res) {
   pointSchema.find()

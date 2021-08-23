@@ -3,14 +3,7 @@ const courseSchema = require("../schemas/points");
 
 const validate = require('../middleware/validateData');
 
-
 module.exports = function(app){
-    //get places for json data
-    app.get(
-        "/points/", 
-        controller.getPoint
-    );  
-    //Routes fo DB MongoDB Atlas 
     //get all places from mongodb Atlas
     app.get(
         "/places/",
