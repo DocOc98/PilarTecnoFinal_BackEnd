@@ -85,4 +85,4 @@ async function patchPlaces(req, res) {
   res.status(200).json({ message: 'Update Place Succesfully', docs });
 }
 
-module.exports = { getPoint, getPlaces, getPlaceById, postPlace, deletePlace, patchPlaces };
+module.exports = { getPlaces, getPlaceById, postPlace, deletePlace, patchPlaces };
